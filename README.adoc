@@ -6,11 +6,9 @@ words, you only need one "or".
 
 These three sentences are equivalent:
 
-English: "Sally likes pizza and ice cream, and she likes either lettuce or kale."
-
-Logic tree: `[:and "pizza" "ice cream" [:or "lettuce" "kale"]]`
-
-Disjunct of conjuncts:
+. English: "Sally likes pizza and ice cream, and she likes either lettuce or kale."
+. Logic tree: `[:and "pizza" "ice cream" [:or "lettuce" "kale"]]`
+. Disjunct of conjuncts:
 ```
 [:or [:and "pizza" "ice cream" "lettuce"]
      [:and "pizza" "ice cream" "kale"]]
